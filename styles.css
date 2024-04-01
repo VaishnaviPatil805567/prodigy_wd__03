@@ -1,0 +1,37 @@
+body {
+    background-color: violet;
+}
+.container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(55, 0, 255);
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.message {
+    margin-top: 20px;
+}
+
+.winner {
+    color: rgb(255, 0, 0);
+}
+
+.draw {
+    color: rgb(6, 6, 255);
+}
+
